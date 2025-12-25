@@ -45,6 +45,12 @@ docker-compose down -v
 > [!NOTE]
 > Debezium producer application will send it while starting.
 
+> [!TIP]
+> You can find more details in [Debezium connector for MySQL](https://debezium.io/documentation/reference/3.4/connectors/mysql.html) page.
+
+> [!NOTE]
+> I prefer an external Debezium setup and creating connectors via REST APIs, but you can use the [Embedded Debezium Engine](https://debezium.io/documentation/reference/3.4/development/engine.html) to ease configuration, etc.
+
 ### Create Connector
 
 ```curl
