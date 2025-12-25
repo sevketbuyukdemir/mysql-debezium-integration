@@ -42,6 +42,9 @@ docker-compose down -v
 
 ## Manual Debezium Connector Creation
 
+> [!NOTE]
+> Debezium producer application will send it while starting.
+
 ### Create Connector
 
 ```curl
